@@ -2,7 +2,7 @@
 // - The app itself (page, icons) is cached on install and refreshed from the network when online.
 // - Each day's recordings (audio/dNNN.js) are cached the first time they load, or all at once
 //   from Settings → "Save all recordings for offline". They never change, so cache-first.
-const BUILD = '21eafa520f';
+const BUILD = '4c8ab9cf99';
 const SHELL = 'se100-shell-' + BUILD;
 const AUDIO = 'se100-audio';
 const SHELL_FILES = ['./', './index.html', './manifest.webmanifest',
